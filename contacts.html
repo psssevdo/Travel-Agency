@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aydatur — Контакты</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contacts.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="photos_main/mylogo.svg" alt="Aydatur">
+    </div>
+    <nav>
+      <a href="main.html">Главная</a>
+      <a href="tours.html">Туры</a>
+      <a href="contacts.html" class="active">Контакты</a>
+      <a href="about.html">О нас</a>
+    </nav>
+    <div class="city-box">
+      <label>Город<br>вылета</label>
+      <select id="citySelect" onchange="alert('Город вылета: ' + this.value)">
+      </select>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div class="center-title">
+      <span>Наши контактные данные</span>
+    </div>
+    <div class="row-top">
+      <div class="col-company">
+        <div class="c-card">
+          <div class="company-name">📋 Aydatur Travel</div>
+          <ul class="contact-list">
+            <li>📞 <strong>Центральный офис:</strong> +375 (17) 378-22-44</li>
+            <li>✉️ <strong>Email:</strong> info@aydatur.com</li>
+            <li>📍 <strong>Адрес:</strong> Где нас найти: г. Минск, ул. Немига, 12, БЦ «Немига Сити», офис 305
+              (метро Немига, 3 минуты пешком)</li>
+            <li>⏰ <strong>График:</strong> Пн–Пт 10:00–19:00, Сб 11:00–16:00</li>
+            <li>💳 <strong>Оплата:</strong> BYN, карты, рассрочка</li>
+            <li>📱 <strong>WhatsApp / Telegram:</strong> +375 (29) 123-45-67</li>
+            <li>📞 <strong>Бесплатная линия:</strong> 8-800-555-35-35</li>
+            <li>🤝 <strong>Для партнёров:</strong> partner@aydatur.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-stats">
+        <div class="c-card">
+          <ul class="stats-list">
+            <li><span class="stats-num">10+</span>лет на рынке</li>
+            <li><span class="stats-num">5 000+</span>довольных клиентов</li>
+            <li><span class="stats-num">50+</span>стран мира</li>
+            <li><span class="stats-num">24/7</span>поддержка</li>
+            <li><span class="stats-num">100%</span>гарантия возврата</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="center-title">
+      <span>Возникли проблемы с сайтом?</span>
+    </div>
+    <div class="row-support">
+      <div class="col-support">
+        <div class="c-card-dark">
+          <div class="support-list">
+            <div class="support-item"><strong>📧 E-mail:</strong> support@aydatur.by</div>
+            <div class="support-item"><strong>📞 Телефон:</strong> +375 (29) 999-88-77</div>
+            <div class="support-item"><strong>💬 Telegram:</strong> @aydatur_support</div>
+            <div class="support-item"><strong>🕒 Режим работы:</strong> Пн–Пт 09:00–21:00</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-social-big">
+        <div class="c-card">
+          <div class="social-big-row">
+            <a href="https://vk.com" target="_blank" class="social-big-link">
+              <img src="photos_main/vk.webp" alt="VK">
+              <span class="social-big-name">ВКонтакте</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-big-link">
+              <img src="photos_main/inst.png" alt="Instagram">
+              <span class="social-big-name">Instagram</span>
+            </a>
+            <a href="https://t.me" target="_blank" class="social-big-link">
+              <img src="photos_main/tg.webp" alt="Telegram">
+              <span class="social-big-name">Telegram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="center-title">
+      <span>У вас есть дополнительные вопросы?</span>
+    </div>
+    <div class="row-contact">
+      <div class="col-form">
+        <span class="mini-title">Создайте онлайн-обращение</span>
+        <div class="c-card">
+          <form id="contactForm" onsubmit="return validateForm()">
+            <div class="form-group">
+              <label>Ваше имя и e-mail</label>
+              <input type="text" id="nameEmail" placeholder="Иван Иванов, ivan@mail.ru">
+              <div class="error-msg" id="nameEmailError">❌ Укажите имя (без цифр) и корректный e-mail</div>
+            </div>
+            <div class="form-group">
+              <label>Задайте вопрос</label>
+              <textarea id="question" placeholder="Опишите ваш вопрос..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Создать обращение</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-phone">
+        <span class="mini-title">Позвоните нам</span>
+        <div class="c-card-dark">
+          <div class="phone-list">
+            <div class="phone-item">
+              <div class="phone-position">Менеджер по турам</div>
+              <div class="phone-name">Анна Ковальчук</div>
+              <a href="tel:+375291234567" class="phone-number">+375 (29) 540-45-67</a>
+            </div>
+            <div class="phone-item">
+              <div class="phone-position">Отдел бронирования</div>
+              <div class="phone-name">Дмитрий Савельев</div>
+              <a href="tel:+375331234567" class="phone-number">+375 (33) 237-12-54</a>
+            </div>
+            <div class="phone-item">
+              <div class="phone-position">Визовая поддержка</div>
+              <div class="phone-name">Елена Морозова</div>
+              <a href="tel:+375447654321" class="phone-number">+375 (44) 765-43-21</a>
+            </div>
+            <div class="phone-item">
+              <div class="phone-position">Ресепшн / офис</div>
+              <div class="phone-name">Секретариат</div>
+              <a href="tel:+375172223344" class="phone-number">+375 (17) 648-33-86</a>
+            </div>
+            <div class="phone-item">
+              <div class="phone-position">Горячая линия 24/7</div>
+              <div class="phone-name">Круглосуточная поддержка</div>
+              <a href="tel:+375256667788" class="phone-number">+375 (25) 124-81-88</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="bottom-row">
+      <div class="info-col">
+        <span class="section-label">Дополнительная информация</span>
+        <div class="info-blocks">
+          <div class="info-big">
+            <h2>О компании</h2>
+            <p>Мы работаем на рынке туристических услуг более 10 лет и помогли тысячам клиентов открыть для себя новые
+              страны. Наши специалисты подберут тур под любой бюджет и пожелания.</p>
+            <p>Гарантируем безопасность, комфорт и поддержку на всех этапах — от выбора отеля до возвращения домой.</p>
+            <p>Где нас найти: г. Минск, ул. Немига, 12, БЦ «Немига Сити», офис 305
+              (метро Немига, 3 минуты пешком)</p>
+          </div>
+          <div class="info-small">
+            <h3>Почему мы?</h3>
+            <ul>
+              <li>✔ Лучшие цены на рынке</li>
+              <li>✔ Поддержка 24/7</li>
+              <li>✔ Надёжность и опыт</li>
+              <li>✔ Индивидуальный подход</li>
+              <li>✔ Визовая поддержка</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="social-col">
+        <span class="social-spacer">placeholder</span>
+        <div class="social-box">
+          <span class="social-label">Будьте с нами</span>
+          <div class="social-icons">
+            <a href="https://vk.com" target="_blank"><img src="photos_main/vk.webp" alt="VK"></a>
+            <a href="https://instagram.com" target="_blank"><img src="photos_main/inst.png" alt="Instagram"></a>
+            <a href="https://t.me" target="_blank"><img src="photos_main/tg.webp" alt="Telegram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function validateForm() {
+      const val = document.getElementById('nameEmail').value.trim();
+      const errEl = document.getElementById('nameEmailError');
+      errEl.style.display = 'none';
+
+      const emailMatch = val.match(/[^\s@,]+@[^\s@,]+\.[^\s@,]+/);
+      const namePart = val.replace(emailMatch ? emailMatch[0] : '', '').replace(/[,\s]+/g, '');
+      const nameOk = namePart.length > 0 && /^[A-Za-zА-Яа-яЁё\s\-\.]+$/.test(namePart);
+
+      if (!emailMatch || !nameOk) {
+        errEl.style.display = 'block';
+        return false;
+      }
+
+      alert('✅ Обращение отправлено! Мы свяжемся с вами.');
+      document.getElementById('contactForm').reset();
+      return false;
+    }
+
+    fetch('data.xml')
+      .then(response => response.text())
+      .then(xmlText => {
+        const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
+        const cities = xml.querySelectorAll('departure-cities city');
+        const select = document.getElementById('citySelect');
+        cities.forEach(city => {
+          const opt = document.createElement('option');
+          opt.textContent = city.textContent;
+          select.appendChild(opt);
+        });
+      })
+      .catch(() => {
+        const select = document.getElementById('citySelect');
+        const fallback = ['Минск'];
+        fallback.forEach(name => {
+          const opt = document.createElement('option');
+          opt.textContent = name;
+          select.appendChild(opt);
+        });
+      });
+  </script>
+
+</body>
+
+</html>

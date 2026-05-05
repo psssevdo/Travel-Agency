@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aydatur — Туры</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tours.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="photos_main/mylogo.svg" alt="Aydatur">
+    </div>
+    <nav>
+      <a href="main.html">Главная</a>
+      <a href="tours.html" class="active">Туры</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="about.html">О нас</a>
+    </nav>
+    <div class="city-box">
+      <label>Город<br>вылета</label>
+      <select id="citySelect" onchange="alert('Город вылета: ' + this.value)"></select>
+    </div>
+  </header>
+
+  <main id="toursContainer">
+    <div class="page-title"><span>Загрузка туров...</span></div>
+  </main>
+
+  <div class="help-title">
+    <span>Нужна помощь с выбором тура? Свяжитесь с нами!</span>
+  </div>
+  <div class="help-cards">
+    <div class="help-card">
+      <h3>Связь с менеджером</h3>
+      <p>
+        📞 +375 (29) 123-45-67<br>
+        📞 +375 (33) 987-65-43<br><br>
+        Подберём тур под ваш бюджет и пожелания.
+      </p>
+    </div>
+    <div class="help-card">
+      <h3>Мы онлайн</h3>
+      <p>
+        📱 Telegram: @aydatur<br>
+        📸 Instagram: @aydatur_travel<br>
+        💬 VK: vk.com/aydatur
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="bottom-row">
+      <div class="info-col">
+        <span class="section-label">Дополнительная информация</span>
+        <div class="info-blocks">
+          <div class="info-big">
+            <h2>О компании</h2>
+            <p>Мы работаем на рынке туристических услуг более 10 лет и помогли тысячам клиентов открыть для себя новые
+              страны. Наши специалисты подберут тур под любой бюджет и пожелания.</p>
+            <p>Гарантируем безопасность, комфорт и поддержку на всех этапах — от выбора отеля до возвращения домой.</p>
+            <p>Где нас найти: г. Минск, ул. Немига, 12, БЦ «Немига Сити», офис 305
+            (метро Немига, 3 минуты пешком)</p>
+          </div>
+          <div class="info-small">
+            <h3>Почему мы?</h3>
+            <ul>
+              <li>✔ Лучшие цены на рынке</li>
+              <li>✔ Поддержка 24/7</li>
+              <li>✔ Надёжность и опыт</li>
+              <li>✔ Индивидуальный подход</li>
+              <li>✔ Визовая поддержка</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="social-col">
+        <span class="social-spacer">placeholder</span>
+        <div class="social-box">
+          <span class="social-label">Будьте с нами</span>
+          <div class="social-icons">
+            <a href="https://vk.com" target="_blank"><img src="photos_main/vk.webp" alt="VK"></a>
+            <a href="https://instagram.com" target="_blank"><img src="photos_main/inst.png" alt="Instagram"></a>
+            <a href="https://t.me" target="_blank"><img src="photos_main/tg.webp" alt="Telegram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="tours.js"></script>
+</body>
+
+</html>

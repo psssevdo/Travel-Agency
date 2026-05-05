@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aydatur — О нас</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="photos_main/mylogo.svg" alt="Aydatur">
+    </div>
+    <nav>
+      <a href="main.html">Главная</a>
+      <a href="tours.html">Туры</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="about.html" class="active">О нас</a>
+    </nav>
+    <div class="city-box">
+      <label>Город<br>вылета</label>
+      <select id="citySelect" onchange="alert('Город вылета: ' + this.value)">
+      </select>
+    </div>
+  </header>
+
+  <div class="page-title">
+    <span>Агентство «Aydatur»</span>
+  </div>
+
+  <div class="about-wrap">
+    <div class="left-col">
+      <div class="text-blocks">
+        <div class="text-block">
+          <h2>Кто мы?</h2>
+          <p>Aydatur — это команда профессионалов, которые превращают мечты о путешествиях в реальность. Мы работаем с
+            2014 года и за это время помогли тысячам туристов открыть для себя мир.</p>
+          <p>Наши менеджеры сами объездили полмира и знают, где лучшие пляжи, самые интересные экскурсии и самые уютные
+            отели. Мы не продаём то, что не пробовали сами.</p>
+        </div>
+        <div class="text-block">
+          <h2>Наши ценности</h2>
+          <ul>
+            <li>❤️ <strong>Честность</strong> — никаких скрытых комиссий</li>
+            <li>🌟 <strong>Качество</strong> — только проверенные отели и гиды</li>
+            <li>🤝 <strong>Забота</strong> — мы на связи 24/7 во время вашего отдыха</li>
+            <li>💰 <strong>Доступность</strong> — туры под любой бюджет</li>
+            <li>📞 <strong>Поддержка</strong> — помогаем с визами и страховкой</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        <div class="photo-big">
+          <img src="photos_main/office1.jpg" alt="Турция">
+        </div>
+        <div class="photo-small-col">
+          <div class="photo-small">
+            <img src="photos_main/office2.jpg" alt="Италия">
+          </div>
+          <div class="photo-small">
+            <img src="photos_main/office3.jfif" alt="Таиланд">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-col">
+      <div class="reviews-header">❤️ Отзывы наших клиентов</div>
+      <div class="reviews-list">
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">А</div>
+            <div>
+              <div class="review-name">Анна Ковальчук</div>
+              <div class="review-info">Тур во Францию, июль 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Встретили в аэропорту, отель супер, гид — знаток своего дела. Всё прошло гладко, без
+            единой заминки. Отдых получился именно таким, как мы хотели: расслабленным, но при этом насыщенным
+            впечатлениями. Очень понравилось, что нас не дёргали лишними звонками, но при этом всегда были на связи,
+            если возникал вопрос. Вернёмся к вам ещё!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">Д</div>
+            <div>
+              <div class="review-name">Дмитрий Васильев</div>
+              <div class="review-info">Тур в Италию, сентябрь 2024</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Менеджеры подобрали невероятный маршрут! Рим, Флоренция, Венеция — успели всё. Отели
+            отличные, трансферы вовремя. Спасибо!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">М</div>
+            <div>
+              <div class="review-name">Мария Соколова</div>
+              <div class="review-info">Тур в Таиланд, март 2026</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Пхи-Пхи, Краби, Пхукет — это было нереально красиво! Таиланд открылся для нас с новой
+            стороны благодаря Aydatur. Агентство всегда было на связи, помогли с экскурсиями на месте, подсказали, где
+            вкусно поесть и на каких пляжах лучший песок. Всё организовали без суеты и нервов.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">И</div>
+            <div>
+              <div class="review-name">Игорь Петров</div>
+              <div class="review-info">Тур в Турцию, август 2024</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Уже четвёртый раз отдыхаем через Aydatur! Цены приятные, отели хорошие, всегда
+            подбирают лучшие варианты под наш бюджет и пожелания. Менеджеры очень внимательные — ни разу не было проблем
+            с документами или трансфером. Всё чётко, вовремя, с заботой о клиенте. Отдельное спасибо за помощь с выбором
+            экскурсий — всегда подскажут, куда реально стоит съездить, а где можно сэкономить. Рекомендую от всей души!
+          </p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">M</div>
+            <div>
+              <div class="review-name">Mike</div>
+              <div class="review-info">Тур в Таиланд, май 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Wow! Just wow. Best vacation ever. Thailand was incredible and everything was perfectly
+            organized. Our manager answered all our dumb questions at 2 AM. You guys rock!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="bottom-row">
+      <div class="info-col">
+        <span class="section-label">Дополнительная информация</span>
+        <div class="info-blocks">
+          <div class="info-big">
+            <h2>О компании</h2>
+            <p>Мы работаем на рынке туристических услуг более 10 лет и помогли тысячам клиентов открыть для себя новые
+              страны. Наши специалисты подберут тур под любой бюджет и пожелания.</p>
+            <p>Гарантируем безопасность, комфорт и поддержку на всех этапах — от выбора отеля до возвращения домой.</p>
+            <p>Где нас найти: г. Минск, ул. Немига, 12, БЦ «Немига Сити», офис 305
+            (метро Немига, 3 минуты пешком)</p>
+          </div>
+          <div class="info-small">
+            <h3>Почему мы?</h3>
+            <ul>
+              <li>✔ Лучшие цены на рынке</li>
+              <li>✔ Поддержка 24/7</li>
+              <li>✔ Надёжность и опыт</li>
+              <li>✔ Индивидуальный подход</li>
+              <li>✔ Визовая поддержка</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="social-col">
+        <span class="social-spacer">placeholder</span>
+        <div class="social-box">
+          <span class="social-label">Будьте с нами</span>
+          <div class="social-icons">
+            <a href="https://vk.com" target="_blank"><img src="photos_main/vk.webp" alt="VK"></a>
+            <a href="https://instagram.com" target="_blank"><img src="photos_main/inst.png" alt="Instagram"></a>
+            <a href="https://t.me" target="_blank"><img src="photos_main/tg.webp" alt="Telegram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    fetch('data.xml')
+      .then(response => response.text())
+      .then(xmlText => {
+        const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
+        const cities = xml.querySelectorAll('departure-cities city');
+        const select = document.getElementById('citySelect');
+        cities.forEach(city => {
+          const opt = document.createElement('option');
+          opt.textContent = city.textContent;
+          select.appendChild(opt);
+        });
+      })
+      .catch(() => {
+        const select = document.getElementById('citySelect');
+        const fallback = ['Минск'];
+        fallback.forEach(name => {
+          const opt = document.createElement('option');
+          opt.textContent = name;
+          select.appendChild(opt);
+        });
+      });
+  </script>
+
+</body>
+
+</html>

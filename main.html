@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aydatur — Туристическое агентство</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <header>
+    <div class="logo">
+      <img src="photos_main/mylogo.svg" alt="Aydatur">
+    </div>
+    <nav>
+      <a href="main.html" class="active">Главная</a>
+      <a href="tours.html">Туры</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="about.html">О нас</a>
+    </nav>
+    <div class="city-box">
+      <label>Город<br>вылета</label>
+      <select id="citySelect" onchange="alert('Город вылета: ' + this.value)">
+      </select>
+    </div>
+  </header>
+
+  <div class="page-title">
+    <span>Лучшие туры для вашего отдыха</span>
+  </div>
+
+  <div class="cards-wrapper">
+    <div class="card">
+      <img src="photos_main/turkey.webp" alt="Турция">
+      <div class="card-title">Турция</div>
+      <p class="card-desc">Лазурное море, пляжи и отели «всё включено». Вас ждут древние руины, базары со специями и
+        закаты над Средиземноморьем.</p>
+      <div class="card-footer">
+        <span class="card-price">2 599 Br</span>
+        <a class="card-btn" href="tour.html?id=turkey">Подробнее</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="photos_main/italy.jpg" alt="Италия">
+      <div class="card-title">Италия</div>
+      <p class="card-desc">Колизей, каналы Венеции и кухня, от которой невозможно оторваться. Рим, Флоренция и
+        Амальфитанское побережье ждут вас.</p>
+      <div class="card-footer">
+        <span class="card-price">3 699 Br</span>
+        <a class="card-btn" href="tour.html?id=italy">Подробнее</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="photos_main/tailand.jpg" alt="Таиланд">
+      <div class="card-title">Таиланд</div>
+      <p class="card-desc">Изумрудные скалы, тёплый океан и буддийские храмы. Острова Пхи-Пхи, уличная еда Бангкока и
+        пляжи Самуи.</p>
+      <div class="card-footer">
+        <span class="card-price">4 299 Br</span>
+        <a class="card-btn" href="tour.html?id=thailand">Подробнее</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="bottom-row">
+      <div class="info-col">
+        <span class="section-label">Дополнительная информация</span>
+        <div class="info-blocks">
+          <div class="info-big">
+            <h2>О компании</h2>
+            <p>Мы работаем на рынке туристических услуг более 10 лет и помогли тысячам клиентов открыть для себя новые
+              страны. Наши специалисты подберут тур под любой бюджет и пожелания.</p>
+            <p>Гарантируем безопасность, комфорт и поддержку на всех этапах — от выбора отеля до возвращения домой.</p>
+            <p>Где нас найти: г. Минск, ул. Немига, 12, БЦ «Немига Сити», офис 305
+            (метро Немига, 3 минуты пешком)</p>
+          </div>
+          <div class="info-small">
+            <h3>Почему мы?</h3>
+            <ul>
+              <li>✔ Лучшие цены на рынке</li>
+              <li>✔ Поддержка 24/7</li>
+              <li>✔ Надёжность и опыт</li>
+              <li>✔ Индивидуальный подход</li>
+              <li>✔ Визовая поддержка</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="social-col">
+        <span class="social-spacer">placeholder</span>
+        <div class="social-box">
+          <span class="social-label">Будьте с нами</span>
+          <div class="social-icons">
+            <a href="https://vk.com" target="_blank">
+              <img src="photos_main/vk.webp" alt="VK">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="photos_main/inst.png" alt="Instagram">
+            </a>
+            <a href="https://t.me" target="_blank">
+              <img src="photos_main/tg.webp" alt="Telegram">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    fetch('data.xml')
+      .then(response => response.text())
+      .then(xmlText => {
+        const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
+        const cities = xml.querySelectorAll('departure-cities city');
+        const select = document.getElementById('citySelect');
+        cities.forEach(city => {
+          const opt = document.createElement('option');
+          opt.textContent = city.textContent;
+          select.appendChild(opt);
+        });
+      })
+      .catch(() => {
+        const select = document.getElementById('citySelect');
+        const fallback = ['Минск'];
+        fallback.forEach(name => {
+          const opt = document.createElement('option');
+          opt.textContent = name;
+          select.appendChild(opt);
+        });
+      });
+  </script>
+
+</body>
+
+</html>

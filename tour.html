@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aydatur — Тур</title>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tour.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="photos_main/mylogo.svg" alt="Aydatur">
+  </div>
+  <nav>
+    <a href="main.html">Главная</a>
+    <a href="tours.html" class="active">Туры</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="about.html">О нас</a>
+  </nav>
+  <div class="city-box">
+    <label>Город<br>вылета</label>
+    <select id="citySelect" onchange="alert('Город вылета: ' + this.value)"></select>
+  </div>
+</header>
+
+<main id="tourPage">
+  <section class="tour-hero">
+    <img id="heroImage" src="" alt="Фото тура">
+    <div class="tour-hero__overlay"></div>
+    <a class="tour-hero__back" href="tours.html">Назад к турам</a>
+    <div class="tour-hero__content">
+      <p id="tourRegion" class="tour-hero__region"></p>
+      <h1 id="tourCountry"></h1>
+      <p id="tourTagline"></p>
+    </div>
+    <div id="tourPrice" class="tour-hero__price"></div>
+  </section>
+
+  <section class="tour-layout">
+    <div class="tour-main">
+      <div class="tour-section-title"><span>О направлении</span></div>
+      <section class="tour-card">
+        <p id="tourDescription" class="tour-description"></p>
+        <div id="tourTags" class="tour-tags"></div>
+      </section>
+
+      <div class="tour-section-title"><span>Детали тура</span></div>
+      <section class="tour-card">
+        <div id="tourDetails" class="tour-details"></div>
+      </section>
+
+      <div class="tour-section-title"><span>Программа по дням</span></div>
+      <section id="tourProgramme" class="tour-card tour-programme"></section>
+
+      <div class="tour-section-title"><span>Что входит в стоимость</span></div>
+      <section class="tour-columns">
+        <div class="tour-card">
+          <h2>Включено</h2>
+          <ul id="includedList" class="tour-list tour-list--yes"></ul>
+        </div>
+        <div class="tour-card">
+          <h2>Не включено</h2>
+          <ul id="excludedList" class="tour-list tour-list--no"></ul>
+        </div>
+      </section>
+    </div>
+
+    <aside class="tour-sidebar">
+      <div class="booking-card">
+        <div class="booking-card__label">Стоимость тура</div>
+        <div id="sidePrice" class="booking-card__price"></div>
+        <p class="booking-card__note">Цена указана за одного человека.</p>
+
+        <label for="dateSelect">Дата вылета</label>
+        <select id="dateSelect"></select>
+
+        <label for="nightSelect">Количество ночей</label>
+        <select id="nightSelect"></select>
+
+        <label for="clientName">Ваше имя</label>
+        <input id="clientName" type="text" placeholder="Введите имя">
+
+        <label for="clientPhone">Телефон</label>
+        <input id="clientPhone" type="tel" placeholder="+375 (__) ___-__-__">
+
+        <button id="bookingBtn" type="button">Оставить заявку</button>
+      </div>
+
+      <div class="booking-card booking-card--small">
+        <h2>Краткая информация</h2>
+        <ul id="sideDetails" class="side-details"></ul>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<script src="tour.js"></script>
+</body>
+</html>

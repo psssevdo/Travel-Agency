@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<travel-agency>
+  <name>Aydatur</name>
+  <founded>2014</founded>
+  <description>Туристическое агентство</description>
+  <contacts>
+    <phone>+375 (29) 123-45-67</phone>
+    <email>info@aydatur.by</email>
+    <website>https://aydatur.by</website>
+  </contacts>
+  <departure-cities>
+    <city>Минск</city>
+  </departure-cities>
+
+  <tour id="turkey">
+    <country>Турция</country>
+    <region>Лучшие туры</region>
+    <tagline>Лазурное море, пляжи и отели «всё включено»</tagline>
+    <price>2 599 Br</price>
+    <image>photos_main/turkey.webp</image>
+    <description>Турция ждёт вас! Песчаные пляжи Антальи, древний Стамбул и волшебная Каппадокия — всё в одном путешествии. Лазурное море, пляжи и отели «всё включено». Вас ждут древние руины, базары со специями и закаты над Средиземноморьем.</description>
+    <tags><tag>Пляж</tag><tag>История</tag><tag>Гастрономия</tag><tag>All Inclusive</tag></tags>
+    <details>
+      <item label="Страна" value="Турция"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="8 дней / 7 ночей"/>
+      <item label="Тип тура" value="Пляжный"/>
+      <item label="Питание" value="All Inclusive"/>
+      <item label="Отель" value="5★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Не нужна"/>
+    </details>
+    <dates>
+      <date>10 июня 2026</date>
+      <date>24 июня 2026</date>
+      <date>8 июля 2026</date>
+      <date>22 июля 2026</date>
+    </dates>
+    <nightOptions>
+      <option>7 ночей</option>
+      <option>10 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Анталья">Встреча в аэропорту, трансфер в отель 5*. Заселение, знакомство с территорией. Свободное время на пляже.</day>
+      <day number="2" title="Свободный день на пляже">Отдых на море, бассейн, развлечения в отеле. Все блага All Inclusive в вашем распоряжении.</day>
+      <day number="3" title="Экскурсия в Стамбул">Вылет в Стамбул. Мечеть Айя-София, Голубая мечеть, Гранд-базар и прогулка по Босфору.</day>
+      <day number="4" title="Стамбул — старый город">Дворец Топкапы, площадь Султанахмет, набережная Ортакёй. Вечером — возврат в Анталью.</day>
+      <day number="5" title="Каппадокия">Переезд в Каппадокию. Долина Гёреме, скальные церкви, подземные города. Полёт на воздушном шаре на рассвете.</day>
+      <day number="6" title="Памуккале">Термальные источники и белоснежные травертины. Античный город Иераполис.</day>
+      <day number="7" title="Последний день в Анталье">Свободный день: пляж, сувениры, спа. Прощальный ужин.</day>
+      <day number="8" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Анталья–Минск</item>
+      <item>Трансфер аэропорт–отель–аэропорт</item>
+      <item>Проживание в отеле 5★ (7 ночей)</item>
+      <item>Питание All Inclusive</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+      <item>Чаевые персоналу</item>
+    </excluded>
+  </tour>
+
+  <tour id="italy">
+    <country>Италия</country>
+    <region>Лучшие туры</region>
+    <tagline>Колизей, каналы Венеции и кухня, от которой невозможно оторваться</tagline>
+    <price>3 699 Br</price>
+    <image>photos_main/italy.jpg</image>
+    <description>Колизей, каналы Венеции и кухня, от которой невозможно оторваться. Рим, Флоренция и Амальфитанское побережье ждут вас. Рим, Венеция и вкуснейшая кухня. Колизей, каналы и пицца.</description>
+    <tags><tag>Культура</tag><tag>Архитектура</tag><tag>Гастрономия</tag><tag>Романтика</tag></tags>
+    <details>
+      <item label="Страна" value="Италия"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="10 дней / 9 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Шенген"/>
+    </details>
+    <dates>
+      <date>15 июня 2026</date>
+      <date>5 июля 2026</date>
+      <date>20 июля 2026</date>
+      <date>10 августа 2026</date>
+    </dates>
+    <nightOptions>
+      <option>9 ночей</option>
+      <option>12 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Рим">Встреча в аэропорту Фьюмичино. Заселение в отель. Прогулка по Трастевере.</day>
+      <day number="2" title="Рим — вечный город">Колизей, Форум, Пантеон, фонтан Треви и площадь Навона.</day>
+      <day number="3" title="Ватикан">Собор Святого Петра, музеи Ватикана и Сикстинская капелла.</day>
+      <day number="4" title="Флоренция">Переезд во Флоренцию. Галерея Уффици, собор Санта-Мария-дель-Фьоре, мост Понте-Веккьо.</day>
+      <day number="5" title="Тоскана">Экскурсия в Сиену и Сан-Джиминьяно. Тосканские холмы и вина.</day>
+      <day number="6" title="Венеция">Переезд в Венецию. Площадь Сан-Марко, Гранд-канал, гондольная прогулка.</day>
+      <day number="7" title="Острова Венеции">Мурано (стекло), Бурано (кружева), Торчелло.</day>
+      <day number="8" title="Неаполь">Переезд в Неаполь. Исторический центр, пицца «Маргарита».</day>
+      <day number="9" title="Помпеи и Амальфи">Древние Помпеи и живописное побережье Амальфи.</day>
+      <day number="10" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Рим–Минск</item>
+      <item>Трансферы по программе</item>
+      <item>Проживание в отелях 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза Шенген</item>
+      <item>Обеды и ужины</item>
+      <item>Входные билеты в музеи</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="thailand">
+    <country>Таиланд</country>
+    <region>Лучшие туры</region>
+    <tagline>Изумрудные скалы, тёплый океан и буддийские храмы</tagline>
+    <price>4 299 Br</price>
+    <image>photos_main/tailand.jpg</image>
+    <description>Изумрудные скалы, тёплый океан и буддийские храмы. Острова Пхи-Пхи, уличная еда Бангкока и пляжи Самуи. Экзотика и тёплое море. Острова, слоны и уличная еда.</description>
+    <tags><tag>Пляж</tag><tag>Экзотика</tag><tag>Природа</tag><tag>Буддизм</tag></tags>
+    <details>
+      <item label="Страна" value="Таиланд"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="11 дней / 10 ночей"/>
+      <item label="Тип тура" value="Пляжный + экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="По прилёту"/>
+    </details>
+    <dates>
+      <date>5 ноября 2026</date>
+      <date>20 ноября 2026</date>
+      <date>10 декабря 2026</date>
+    </dates>
+    <nightOptions>
+      <option>10 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Бангкок">Встреча в аэропорту Суварнабхуми. Заселение в отель. Ночной Бангкок.</day>
+      <day number="2" title="Бангкок — храмы и рынки">Большой Королевский дворец, Ват Пхра Кео, плавучий рынок.</day>
+      <day number="3" title="Перелёт на Пхукет">Утренний рейс на Пхукет. Пляж Карон или Ката, закат на мысе Промтеп.</day>
+      <day number="4-6" title="Пхукет — свободные дни">Пляжи, маршрут Phi Phi по желанию, ныряние с маской, массаж.</day>
+      <day number="7" title="Острова Пхи-Пхи">Однодневный тур: бухта Майя, пещера Викинг, коралловые рифы.</day>
+      <day number="8" title="Краби">Переезд на пароме. Четыре острова, каяк по мангровым зарослям.</day>
+      <day number="9-10" title="Самуи">Перелёт на Самуи. Водопад Нам Муанг, Большой Будда, пляж Чавенг.</day>
+      <day number="11" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Бангкок–Минск</item>
+      <item>Внутренние перелёты по программе</item>
+      <item>Проживание в отелях 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Трансферы по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза по прилёту (оплачивается на месте)</item>
+      <item>Обеды и ужины</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="france">
+    <country>Франция</country>
+    <region>Туры в Европу</region>
+    <tagline>Париж, Эйфелева башня и уютные улочки</tagline>
+    <price>3 299 Br</price>
+    <image>photos_main/french.webp</image>
+    <description>Франция — страна, где каждый камень дышит историей. Вас ждут романтичные улочки Парижа, изысканная кухня, мировые музеи и, конечно, легендарная Эйфелева башня. Романтика, музеи и изысканная кухня ждут вас.</description>
+    <tags><tag>Культура</tag><tag>Гастрономия</tag><tag>Архитектура</tag><tag>Романтика</tag></tags>
+    <details>
+      <item label="Страна" value="Франция"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="8 дней / 7 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Шенген"/>
+    </details>
+    <dates>
+      <date>15 июня 2026</date>
+      <date>22 июня 2026</date>
+      <date>6 июля 2026</date>
+      <date>20 июля 2026</date>
+    </dates>
+    <nightOptions>
+      <option>7 ночей</option>
+      <option>10 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Трансфер в отель">Встреча в аэропорту Шарль-де-Голль. Заселение в отель.</day>
+      <day number="2" title="Париж — город огней">Эйфелева башня, Лувр, Нотр-Дам, Монмартр и Сакре-Кёр.</day>
+      <day number="3" title="Версаль">Версальский дворец и королевские сады.</day>
+      <day number="4" title="Свободный день в Париже">Шопинг, кафе, круиз по Сене.</day>
+      <day number="5" title="Лион">Гастрономическая столица Франции, рынок Поль Бокюз.</day>
+      <day number="6" title="Ницца">Английская набережная, Старый город Ниццы.</day>
+      <day number="7" title="Монако">Казино, дворец Гримальди, порт с яхтами.</day>
+      <day number="8" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Париж–Минск</item>
+      <item>Трансферы по программе</item>
+      <item>Проживание в отеле 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза Шенген</item>
+      <item>Обеды и ужины</item>
+      <item>Входные билеты в музеи</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="spain">
+    <country>Испания</country>
+    <region>Туры в Европу</region>
+    <tagline>Солнце, пляжи и архитектура Гауди</tagline>
+    <price>2 999 Br</price>
+    <image>photos_main/spanich.webp</image>
+    <description>Солнце, пляжи и архитектура Гауди. Барселона, Мадрид и коррида. Страсть, фламенко, оливки и бесконечное синее небо.</description>
+    <tags><tag>Архитектура</tag><tag>Пляж</tag><tag>Культура</tag><tag>Гастрономия</tag></tags>
+    <details>
+      <item label="Страна" value="Испания"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="9 дней / 8 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Шенген"/>
+    </details>
+    <dates>
+      <date>10 июня 2026</date>
+      <date>1 июля 2026</date>
+      <date>15 июля 2026</date>
+    </dates>
+    <nightOptions>
+      <option>8 ночей</option>
+      <option>11 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Барселона">Встреча в аэропорту Эль-Прат. Прогулка по Барселонете.</day>
+      <day number="2" title="Барселона — Гауди">Саграда Фамилия, Парк Гуэль, Casa Batlló, Пасео-де-Грасиа.</day>
+      <day number="3" title="Барселона — старый город">Готический квартал, Ла Рамбла, рынок Бокерия.</day>
+      <day number="4" title="Переезд в Мадрид">Скоростной поезд AVE. Прадо, Ретиро, Пуэрта-дель-Соль.</day>
+      <day number="5" title="Мадрид — королевский город">Королевский дворец, Plaza Mayor, рынок San Miguel.</day>
+      <day number="6" title="Толедо">Однодневная поездка в средневековый Толедо.</day>
+      <day number="7" title="Коста-Брава">Пляжный день на Коста-Брава.</day>
+      <day number="8" title="Свободный день">Шопинг, тапас-бары, последние впечатления.</day>
+      <day number="9" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Барселона–Минск</item>
+      <item>Поезд Барселона–Мадрид</item>
+      <item>Проживание в отелях 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза Шенген</item>
+      <item>Обеды и ужины</item>
+      <item>Входные билеты в музеи</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="germany">
+    <country>Германия</country>
+    <region>Туры в Европу</region>
+    <tagline>Замки, фестивали и старинные города</tagline>
+    <price>2 599 Br</price>
+    <image>photos_main/germany.webp</image>
+    <description>Замки, фестивали и старинные города. Берлин, Мюнхен и автобаны. Романтическая дорога, Нойшванштайн и баварское пиво.</description>
+    <tags><tag>История</tag><tag>Архитектура</tag><tag>Природа</tag><tag>Культура</tag></tags>
+    <details>
+      <item label="Страна" value="Германия"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="8 дней / 7 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="3★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Шенген"/>
+    </details>
+    <dates>
+      <date>8 июня 2026</date>
+      <date>22 июня 2026</date>
+      <date>13 июля 2026</date>
+    </dates>
+    <nightOptions>
+      <option>7 ночей</option>
+      <option>10 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Берлин">Встреча в аэропорту Бранденбург. Заселение. Прогулка по Унтер-ден-Линден.</day>
+      <day number="2" title="Берлин">Бранденбургские ворота, Рейхстаг, Музейный остров, Чекпойнт Чарли.</day>
+      <day number="3" title="Потсдам">Дворцы и парки Потсдама: Сан-Суси, Новый дворец.</day>
+      <day number="4" title="Мюнхен">Переезд. Мариенплац, Английский сад, Хофбройхаус.</day>
+      <day number="5" title="Нойшванштайн">Сказочный замок Людвига II и живописные Альпы.</day>
+      <day number="6" title="Романтическая дорога">Ротенбург-об-дер-Таубер, средневековые стены и башни.</day>
+      <day number="7" title="Гейдельберг">Старейший университет Германии, замок над Неккаром.</day>
+      <day number="8" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Берлин–Минск</item>
+      <item>Трансферы по программе</item>
+      <item>Проживание в отелях 3★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза Шенген</item>
+      <item>Обеды и ужины</item>
+      <item>Входные билеты</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="japan">
+    <country>Япония</country>
+    <region>Туры в Азию</region>
+    <tagline>Сакура и технологии будущего</tagline>
+    <price>5 899 Br</price>
+    <image>photos_main/japan.webp</image>
+    <description>Сакура и технологии будущего. Токио, Киото и традиции самураев. Страна, где древние храмы соседствуют с небоскрёбами, а чайная церемония — с роботами.</description>
+    <tags><tag>Культура</tag><tag>Технологии</tag><tag>Природа</tag><tag>Гастрономия</tag></tags>
+    <details>
+      <item label="Страна" value="Япония"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="11 дней / 10 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Нужна"/>
+    </details>
+    <dates>
+      <date>1 апреля 2025</date>
+      <date>15 апреля 2025</date>
+      <date>5 октября 2025</date>
+    </dates>
+    <nightOptions>
+      <option>10 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Токио">Встреча в аэропорту Нарита. Заселение в отель. Районы Синдзюку и Сибуя.</day>
+      <day number="2" title="Токио — традиции и современность">Храм Сэнсо-дзи в Асакусе, перекрёсток Сибуя, Акихабара.</day>
+      <day number="3" title="Токио — парки и дворцы">Императорский дворец, сад Синдзюку-гёэн, Одайба.</day>
+      <day number="4" title="Никко">Святилище Тосёгу, водопад Кэгон, озеро Тюдзэндзи.</day>
+      <day number="5" title="Переезд в Киото">Синкансэн до Киото. Золотой павильон Кинкакудзи.</day>
+      <day number="6" title="Киото — тысяча храмов">Арасияма, бамбуковая роща, Фусими-Инари, гейши Гиона.</day>
+      <day number="7" title="Нара">Священные олени, храм Тодайдзи с гигантским Буддой.</day>
+      <day number="8" title="Хиросима и Миядзима">Мемориал мира, «плавающие» ворота Тории острова Миядзима.</day>
+      <day number="9" title="Осака">Замок Осака, Дотонбори, уличная еда такояки.</day>
+      <day number="10" title="Возврат в Токио">Свободное время для шопинга, сувениры.</day>
+      <day number="11" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Токио–Минск</item>
+      <item>Проездной JR Pass (7 дней)</item>
+      <item>Проживание в отелях 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза в Японию</item>
+      <item>Обеды и ужины</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="vietnam">
+    <country>Вьетнам</country>
+    <region>Туры в Азию</region>
+    <tagline>Доступный и яркий отдых. Бухта Халонг</tagline>
+    <price>3 799 Br</price>
+    <image>photos_main/vietnam.webp</image>
+    <description>Доступный и яркий отдых. Бухта Халонг и рисовые поля. Вьетнам поражает разнообразием: шумный Ханой, древний Хойан и курорты Фантьета.</description>
+    <tags><tag>Природа</tag><tag>Культура</tag><tag>Пляж</tag><tag>Гастрономия</tag></tags>
+    <details>
+      <item label="Страна" value="Вьетнам 🇻🇳"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="12 дней / 11 ночей"/>
+      <item label="Тип тура" value="Экскурсионный + пляжный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="3★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Нужна"/>
+    </details>
+    <dates>
+      <date>3 ноября 2026</date>
+      <date>17 ноября 2026</date>
+      <date>1 декабря 2026</date>
+    </dates>
+    <nightOptions>
+      <option>11 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Ханой">Встреча в аэропорту. Заселение. Старый квартал.</day>
+      <day number="2" title="Ханой">Мавзолей Хо Ши Мина, пагода на одном столбе, озеро Хоан Кием.</day>
+      <day number="3-4" title="Бухта Халонг">Круиз на джонке: острова, гроты, каяк, морепродукты.</day>
+      <day number="5" title="Хюэ">Бывшая императорская столица, Запретный пурпурный город.</day>
+      <day number="6" title="Хойан">Фонарный старый город под защитой ЮНЕСКО.</day>
+      <day number="7-9" title="Дананг — пляжи">Пляж Ми Кхэ, Мраморные горы, Золотой мост.</day>
+      <day number="10" title="Хошимин">Тоннели Кучи, площадь Независимости, ночной рынок Бентхань.</day>
+      <day number="11" title="Меконг">Круиз по дельте Меконга, кокосовые фермы.</day>
+      <day number="12" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Ханой / Хошимин–Минск</item>
+      <item>Внутренние перелёты</item>
+      <item>Проживание в отелях 3★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза во Вьетнам</item>
+      <item>Обеды и ужины</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="egypt">
+    <country>Египет</country>
+    <region>Туры в Африку</region>
+    <tagline>Пирамиды и Красное море</tagline>
+    <price>2 299 Br</price>
+    <image>photos_main/egipet.avif</image>
+    <description>Пирамиды и Красное море. Отличный дайвинг и древняя история. Египет — одна из самых популярных туристических стран мира. Хургада, Шарм-эль-Шейх и Каир ждут вас.</description>
+    <tags><tag>История</tag><tag>Пляж</tag><tag>Дайвинг</tag><tag>All Inclusive</tag></tags>
+    <details>
+      <item label="Страна" value="Египет"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="8 дней / 7 ночей"/>
+      <item label="Тип тура" value="Пляжный + экскурсионный"/>
+      <item label="Питание" value="All Inclusive"/>
+      <item label="Отель" value="5★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="По прилёту"/>
+    </details>
+    <dates>
+      <date>5 мая 2026</date>
+      <date>19 мая 2026</date>
+      <date>2 июня 2026</date>
+      <date>16 июня 2026</date>
+    </dates>
+    <nightOptions>
+      <option>7 ночей</option>
+      <option>10 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Хургада">Встреча в аэропорту. Трансфер в отель 5* All Inclusive. Заселение.</day>
+      <day number="2" title="Свободный день">Пляж Красного моря, бассейн, аквапарк.</day>
+      <day number="3" title="Снорклинг и дайвинг">Коралловые рифы Красного моря, морские черепахи.</day>
+      <day number="4" title="Каир">Пирамиды Гизы, Сфинкс, Египетский музей с золотой маской Тутанхамона.</day>
+      <day number="5" title="Луксор">Карнакский и Луксорский храмы, Долина царей.</day>
+      <day number="6-7" title="Свободные дни">Пляж, шопинг, вечерние базары.</day>
+      <day number="8" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Хургада–Минск</item>
+      <item>Трансферы по программе</item>
+      <item>Проживание в отеле 5★</item>
+      <item>Питание All Inclusive</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза по прилёту</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="morocco">
+    <country>Марокко</country>
+    <region>Туры в Африку</region>
+    <tagline>Восточные рынки и пустыня Сахара</tagline>
+    <price>3 399 Br</price>
+    <image>photos_main/marokko.jpg</image>
+    <description>Восточные рынки и пустыня. Марракеш и Сахара. Марокко — экзотический мир медин, специй, берберских ковров и звёздных ночей в пустыне.</description>
+    <tags><tag>Экзотика</tag><tag>Пустыня</tag><tag>Культура</tag><tag>Гастрономия</tag></tags>
+    <details>
+      <item label="Страна" value="Марокко"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="9 дней / 8 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак + ужин"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Не нужна"/>
+    </details>
+    <dates>
+      <date>20 сентября 2026</date>
+      <date>4 октября 2026</date>
+      <date>18 октября 2026</date>
+    </dates>
+    <nightOptions>
+      <option>8 ночей</option>
+      <option>11 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Касабланка">Мечеть Хасана II — одна из крупнейших в мире.</day>
+      <day number="2-3" title="Марракеш">Площадь Джема-эль-Фна, медина, дворец Bahia, сад Мажорель.</day>
+      <day number="4" title="Дорога в Сахару">Горы Атлас, долина Дадес, касбы из глины.</day>
+      <day number="5" title="Сахара">Ночь в берберском лагере, закат и рассвет над дюнами Эрг-Шебби, верблюды.</day>
+      <day number="6" title="Фес">Старейший в мире университет, кожевенные мастерские, лабиринт медины.</day>
+      <day number="7" title="Шефшауэн">Голубой город в горах Риф — самый фотогеничный в Марокко.</day>
+      <day number="8" title="Рабат">Столица страны, мавзолей Мухаммада V.</day>
+      <day number="9" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Касабланка–Минск</item>
+      <item>Трансферы по программе</item>
+      <item>Проживание в отелях и риадах 4★</item>
+      <item>Завтрак + ужин ежедневно</item>
+      <item>Ночь в берберском лагере</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Обеды</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="kenya">
+    <country>Кения</country>
+    <region>Туры в Африку</region>
+    <tagline>Сафари и дикая природа. Большая пятёрка</tagline>
+    <price>6 199 Br</price>
+    <image>photos_main/kenija.jpg</image>
+    <description>Сафари и дикая природа. Большая пятёрка и невероятные виды. Кения — мечта каждого, кто хочет увидеть слонов, львов, гепардов и жирафов в их естественной среде.</description>
+    <tags><tag>Сафари</tag><tag>Природа</tag><tag>Приключения</tag><tag>Фото</tag></tags>
+    <details>
+      <item label="Страна" value="Кения"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="10 дней / 9 ночей"/>
+      <item label="Тип тура" value="Сафари"/>
+      <item label="Питание" value="Полупансион"/>
+      <item label="Отель" value="Lodges 4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Нужна (eVisa)"/>
+    </details>
+    <dates>
+      <date>1 июля 2026</date>
+      <date>15 августа 2026</date>
+      <date>1 октября 2026</date>
+    </dates>
+    <nightOptions>
+      <option>9 ночей</option>
+      <option>12 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Найроби">Встреча в аэропорту. Национальный парк Найроби — жирафы прямо у города.</day>
+      <day number="2-3" title="Масаи Мара">Великая миграция, большая пятёрка, рассвет над саванной.</day>
+      <day number="4" title="Озеро Накуру">Миллионы розовых фламинго, носороги и леопарды.</day>
+      <day number="5-6" title="Амбосели">Слоны на фоне Килиманджаро — самые знаменитые кадры Африки.</day>
+      <day number="7-8" title="Цаво Вест">Красные слоны, водопад Мзима, бегемоты.</day>
+      <day number="9" title="Побережье Момбасы">Белоснежный пляж Диани, Индийский океан.</day>
+      <day number="10" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Найроби–Минск</item>
+      <item>Внутренние перелёты и трансферы</item>
+      <item>Проживание в lodges и кемпах 4★</item>
+      <item>Завтрак + ужин ежедневно</item>
+      <item>Все сафари по программе</item>
+      <item>Русскоговорящий гид-натуралист</item>
+    </included>
+    <excluded>
+      <item>Виза eVisa Kenya</item>
+      <item>Обеды</item>
+      <item>Медицинская страховка + прививки</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="tunisia">
+    <country>Тунис</country>
+    <region>Туры в Африку</region>
+    <tagline>Пляжи и солнечный климат по доступной цене</tagline>
+    <price>2 199 Br</price>
+    <image>photos_main/tunis.webp</image>
+    <description>Пляжи и солнечный климат. Отдых по доступной цене. Тунис сочетает белоснежные пляжи, арабские медины и съёмки «Звёздных войн» в пустыне.</description>
+    <tags><tag>Пляж</tag><tag>История</tag><tag>All Inclusive</tag><tag>Бюджет</tag></tags>
+    <details>
+      <item label="Страна" value="Тунис"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="8 дней / 7 ночей"/>
+      <item label="Тип тура" value="Пляжный"/>
+      <item label="Питание" value="All Inclusive"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Не нужна"/>
+    </details>
+    <dates>
+      <date>10 июня 2026</date>
+      <date>24 июня 2026</date>
+      <date>8 июля 2026</date>
+      <date>22 июля 2026</date>
+    </dates>
+    <nightOptions>
+      <option>7 ночей</option>
+      <option>10 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Монастир / Хаммамет">Встреча в аэропорту. Трансфер в отель. Заселение.</day>
+      <day number="2-3" title="Свободные дни на пляже">Пляж, бассейн, All Inclusive, водные развлечения.</day>
+      <day number="4" title="Карфаген и Сиди-Бу-Саид">Руины Карфагена и знаменитый голубо-белый городок.</day>
+      <day number="5" title="Тунис — столица">Медина (ЮНЕСКО), Музей Бардо с лучшими мозаиками мира.</day>
+      <day number="6" title="Сахара и «Звёздные войны»">Пустыня и декорации фильма. Езда на верблюдах.</day>
+      <day number="7" title="Свободный день">Шопинг, медина, традиционные товары.</day>
+      <day number="8" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Монастир–Минск</item>
+      <item>Трансферы по программе</item>
+      <item>Проживание в отеле 4★</item>
+      <item>Питание All Inclusive</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="usa">
+    <country>США</country>
+    <region>Туры в Америку</region>
+    <tagline>Нью-Йорк, Лос-Анджелес и Голливуд</tagline>
+    <price>6 899 Br</price>
+    <image>photos_main/usa.jpg</image>
+    <description>Нью-Йорк и Лос-Анджелес. Небоскрёбы, Статуя Свободы и Голливуд. США — страна мечты, где каждый город — отдельная вселенная.</description>
+    <tags><tag>Мегаполис</tag><tag>Культура</tag><tag>Шопинг</tag><tag>Природа</tag></tags>
+    <details>
+      <item label="Страна" value="США"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="12 дней / 11 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="ESTA / Виза B1/B2"/>
+    </details>
+    <dates>
+      <date>10 июня 2026</date>
+      <date>15 июля 2026</date>
+      <date>20 августа 2026</date>
+    </dates>
+    <nightOptions>
+      <option>11 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Нью-Йорк">Встреча в JFK. Первая прогулка по Манхэттену.</day>
+      <day number="2" title="Нью-Йорк — иконы">Статуя Свободы, Центральный парк, Таймс-сквер, Бруклинский мост.</day>
+      <day number="3" title="Нью-Йорк — культура">МЕТ, 9/11 Мемориал, Хай-Лайн, MOMA.</day>
+      <day number="4" title="Вашингтон">Капитолий, Белый дом, Mall — бесплатные музеи Смитсоновского института.</day>
+      <day number="5" title="Перелёт. Лас-Вегас">Стрип, казино, шоу цирка Дю Солей.</day>
+      <day number="6" title="Гранд-Каньон">Один из главных природных чудес планеты.</day>
+      <day number="7" title="Перелёт. Лос-Анджелес">Голливуд, Беверли-Хиллс, Венис-Бич.</day>
+      <day number="8" title="Лос-Анджелес">Universal Studios или Disneyland на выбор.</day>
+      <day number="9" title="Сан-Франциско">Мост Золотые Ворота, Алькатрас, Рыбацкая пристань.</day>
+      <day number="10-11" title="Свободные дни">По желанию группы.</day>
+      <day number="12" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Нью-Йорк / Лос-Анджелес–Минск</item>
+      <item>Внутренние перелёты</item>
+      <item>Проживание в отелях 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Виза США (ESTA или B1/B2)</item>
+      <item>Обеды и ужины</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="brazil">
+    <country>Бразилия</country>
+    <region>Туры в Америку</region>
+    <tagline>Карнавал, океан и Рио-де-Жанейро</tagline>
+    <price>5 499 Br</price>
+    <image>photos_main/brazil.jpg</image>
+    <description>Карнавал и океан. Рио, самба и пляж Копакабана. Бразилия — самая большая страна Южной Америки, родина футбола, сельвы и зажигательных ритмов.</description>
+    <tags><tag>Пляж</tag><tag>Культура</tag><tag>Природа</tag><tag>Приключения</tag></tags>
+    <details>
+      <item label="Страна" value="Бразилия"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="11 дней / 10 ночей"/>
+      <item label="Тип тура" value="Экскурсионный + пляжный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Не нужна"/>
+    </details>
+    <dates>
+      <date>20 июня 2026</date>
+      <date>15 ноября 2026</date>
+    </dates>
+    <nightOptions>
+      <option>10 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Рио-де-Жанейро">Встреча в аэропорту. Первый взгляд на залив Гуанабара.</day>
+      <day number="2" title="Рио — иконы">Статуя Христа-Искупителя, гора Сахарная Голова, Копакабана.</day>
+      <day number="3" title="Рио — пляжи и самба">Ипанема, Santa Teresa, школы самбы.</day>
+      <day number="4" title="Водопады Игуасу">Перелёт. Одно из 7 природных чудес света — 275 водопадов.</day>
+      <day number="5" title="Игуасу — аргентинская сторона">Пешеходные мостки у самых мощных водопадов.</day>
+      <day number="6" title="Амазония">Перелёт в Манаус. Встреча двух вод, ночная рыбалка на пиранью.</day>
+      <day number="7-8" title="Сельва">Лодочный тур по притокам Амазонки, ночёвка в джунглях.</day>
+      <day number="9-10" title="Сальвадор">Пелоуриньо — сердце афробразильской культуры, капоэйра.</day>
+      <day number="11" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Рио–Минск</item>
+      <item>Внутренние перелёты по программе</item>
+      <item>Проживание в отелях 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Обеды и ужины</item>
+      <item>Медицинская страховка + прививки</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="canada">
+    <country>Канада</country>
+    <region>Туры в Америку</region>
+    <tagline>Горы, природа и Ниагарский водопад</tagline>
+    <price>4 699 Br</price>
+    <image>photos_main/canade.webp</image>
+    <description>Горы и природа. Кленовый сироп и Ниагарский водопад. Канада восхищает своими бескрайними просторами: Скалистые горы, ледники и мегаполисы.</description>
+    <tags><tag>Природа</tag><tag>Приключения</tag><tag>Города</tag><tag>Пешие прогулки</tag></tags>
+    <details>
+      <item label="Страна" value="Канада"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="11 дней / 10 ночей"/>
+      <item label="Тип тура" value="Экскурсионный"/>
+      <item label="Питание" value="Завтрак"/>
+      <item label="Отель" value="4★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="ETA"/>
+    </details>
+    <dates>
+      <date>15 июня 2026</date>
+      <date>20 сентября 2026</date>
+      <date>1 октября 2026</date>
+    </dates>
+    <nightOptions>
+      <option>10 ночей</option>
+      <option>14 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Торонто">Встреча в аэропорту. Прогулка по набережной озера Онтарио.</day>
+      <day number="2" title="Торонто">Башня CN Tower, Kensington Market, квартал Дистиллери.</day>
+      <day number="3" title="Ниагарский водопад">Самые знаменитые водопады Северной Америки. Круиз «Дева тумана».</day>
+      <day number="4" title="Перелёт. Ванкувер">Стэнли Парк, Капилано — подвесной мост, Gastown.</day>
+      <day number="5-6" title="Скалистые горы — Бэнф">Озёра Луиза и Морейн, ледник Атабаска, горячие источники.</day>
+      <day number="7" title="Джаспер">Национальный парк: медведи, лоси, красота первозданной природы.</day>
+      <day number="8" title="Виктория">Сад Буккарт — один из красивейших в мире.</day>
+      <day number="9-10" title="Свободные дни">Шопинг, кафе, дополнительные активности.</day>
+      <day number="11" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Торонто / Ванкувер–Минск</item>
+      <item>Внутренние перелёты</item>
+      <item>Проживание в отелях 4★</item>
+      <item>Завтраки ежедневно</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>ETA (разрешение на въезд)</item>
+      <item>Обеды и ужины</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+  <tour id="mexico">
+    <country>Мексика</country>
+    <region>Туры в Америку</region>
+    <tagline>Пляжи Канкуна и культура майя</tagline>
+    <price>4 299 Br</price>
+    <image>photos_main/mexico.jpg</image>
+    <description>Пляжи и культура майя. Кактусы, текила и Канкун. Мексика поражает контрастами: бирюзовое Карибское море, древние пирамиды и колониальные города.</description>
+    <tags><tag>Пляж</tag><tag>История</tag><tag>Культура</tag><tag>Гастрономия</tag></tags>
+    <details>
+      <item label="Страна" value="Мексика"/>
+      <item label="Город вылета" value="Минск"/>
+      <item label="Продолжительность" value="10 дней / 9 ночей"/>
+      <item label="Тип тура" value="Пляжный + экскурсионный"/>
+      <item label="Питание" value="All Inclusive"/>
+      <item label="Отель" value="5★"/>
+      <item label="Язык гида" value="Русский"/>
+      <item label="Виза" value="Не нужна"/>
+    </details>
+    <dates>
+      <date>15 ноября 2026</date>
+      <date>1 декабря 2026</date>
+      <date>15 января 2027</date>
+    </dates>
+    <nightOptions>
+      <option>9 ночей</option>
+      <option>12 ночей</option>
+    </nightOptions>
+    <programme>
+      <day number="1" title="Прилёт. Канкун">Встреча в аэропорту. Трансфер в отель 5* All Inclusive.</day>
+      <day number="2-3" title="Пляжи Канкуна">Зона отелей, Карибское море, водные развлечения.</day>
+      <day number="4" title="Чичен-Ица">Пирамида Кукулькана — одно из семи новых чудес света.</day>
+      <day number="5" title="Тулум и Кобá">Пирамиды над морем, сенот Гран Сенот.</day>
+      <day number="6" title="Коба">Подъём на пирамиду Нохоч Муул — один из последних, где это разрешено.</day>
+      <day number="7" title="Остров Исла-Мухерес">Самый северный карибский остров Мексики, кораллы и черепахи.</day>
+      <day number="8" title="Мерида">Колониальная столица Юкатана, рынок Lucas de Gálvez.</day>
+      <day number="9" title="Свободный день">Пляж, шопинг, текила-тастинг.</day>
+      <day number="10" title="Вылет домой">Трансфер в аэропорт, вылет в Минск.</day>
+    </programme>
+    <included>
+      <item>Авиаперелёт Минск–Канкун–Минск</item>
+      <item>Трансферы по программе</item>
+      <item>Проживание в отеле 5★</item>
+      <item>Питание All Inclusive</item>
+      <item>Экскурсии по программе</item>
+      <item>Русскоговорящий гид</item>
+    </included>
+    <excluded>
+      <item>Обеды вне отеля</item>
+      <item>Медицинская страховка</item>
+      <item>Личные расходы</item>
+    </excluded>
+  </tour>
+
+</travel-agency>
